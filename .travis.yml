@@ -11,7 +11,7 @@ before_script:
 script:
   - yarn test
 after_success:
-  - yarn semantic-release
+  - yarn release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
