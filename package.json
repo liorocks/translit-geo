@@ -5,6 +5,11 @@
   "main": "src/index.js",
   "browser": "dist/index.js",
   "author": "Lado Lomidze <lado.lomidze@gmail.com> (https://ladolomidze.com/)",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "keywords": [
     "translit",
     "geo",
@@ -17,7 +22,7 @@
     "url": "https://github.com/Landish/translit-geo.git"
   },
   "scripts": {
-    "commit": "git-cz",
+    "cz": "git-cz",
     "format": "prettier --write {src,__tests__}/**/*.{js,jsx}",
     "build": "babel src -d dist",
     "test": "jest",
