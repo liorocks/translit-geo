@@ -12,9 +12,13 @@ Translit Latin characters to Georgian
 
 ## 
 
+## Installation
+
 ```shell
 $ npm install translit-geo
 ```
+
+## Usage
 
 ```js
 import translit from 'translit-geo'
