@@ -7,12 +7,11 @@ cache:
 notifications:
   email: false
 before_script:
-  - npm prune
-  - npm install jest
+  - yarn add jest
 script:
-  - npm run test
+  - yarn test
 after_success:
-  - npm run semantic-release
+  - yarn semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
